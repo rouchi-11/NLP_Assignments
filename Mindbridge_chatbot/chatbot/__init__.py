@@ -1,0 +1,3 @@
+"""
+MindBridge chatbot package.
+"""

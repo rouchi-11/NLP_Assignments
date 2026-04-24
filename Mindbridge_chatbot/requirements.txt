@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────
+# MindBridge Mental Wellness Chatbot
+# requirements.txt
+# Python >= 3.10 recommended
+# ─────────────────────────────────────────────
+
+# Web Framework
+flask>=3.0.0
+
+# Transformer Models (Hugging Face)
+transformers>=4.40.0
+torch>=2.2.0          # CPU version sufficient; use torch+cu118 for GPU
+sentencepiece>=0.2.0  # required by some tokenizers
+
+# HTTP requests (for HF Inference API)
+requests>=2.31.0
+
+# Utility
+python-dotenv>=1.0.0  # optional: load .env file for HF_API_TOKEN
