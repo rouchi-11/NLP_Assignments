@@ -1,0 +1,47 @@
+# 🔒 Environment variables
+.env
+
+#  Virtual Environment
+venv/
+env/
+.venv/
+
+#  Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+build/
+dist/
+*.egg-info/
+
+
+.ipynb_checkpoints/
+
+*.log
+
+
+.DS_Store
+Thumbs.db
+
+.coverage
+htmlcov/
+
+
+.vscode/
+
+
+.cache/
+huggingface/
+hf_cache/
+
+
+*.tmp
+*.swp
+
+
+*.bin
+*.pt
+*.h5
+*.ckpt
